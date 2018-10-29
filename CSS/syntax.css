@@ -1,18 +1,42 @@
 
 
-h1 {
-    font-weight: normal;
+.box{
+
+    padding: 20px;
+    margin: 20px;
+    float: left;
 }
 
-p{
-    font-weight: 700;
-    font-family: Arial;
+.dashed{
+    border: 1px blue dashed;
 }
 
+.dotted{
+    border: 1px blue dotted;
+}
 
+.double{
+    border: 4px blue double;
+}
 
+.groove{
+    border: 14px blue groove;
+}
 
+.inset{
+    border: 14px blue inset;
+}
 
+.outset{
+    border: 14px blue outset;
+}
 
+.ridge{
+    border: 14px blue ridge;
+}
+
+.solid{
+    border: 1px blue solid;
+}
 
 
