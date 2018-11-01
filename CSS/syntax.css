@@ -1,42 +1,36 @@
 
 
-.box{
-
-    padding: 20px;
-    margin: 20px;
-    float: left;
+.button{
+    display: block;
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #77aaaa;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background: #aadddd;
+    background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    box-shadow: 2px 2px 4px 2px rgba(40,40,40,0.6);
 }
 
-.dashed{
-    border: 1px blue dashed;
+
+
+.button:hover{
+    background: #77aaaa;
+    background: -moz-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+    background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+    background: linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
 }
 
-.dotted{
-    border: 1px blue dotted;
-}
 
-.double{
-    border: 4px blue double;
-}
-
-.groove{
-    border: 14px blue groove;
-}
-
-.inset{
-    border: 14px blue inset;
-}
-
-.outset{
-    border: 14px blue outset;
-}
-
-.ridge{
-    border: 14px blue ridge;
-}
-
-.solid{
-    border: 1px blue solid;
-}
+/*url(http://icons.iconarchive.com/icons/graphicloads/100-flat/72/home-icon.png)
+url(https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678134-sign-check-512.png)
+*/
 
 
